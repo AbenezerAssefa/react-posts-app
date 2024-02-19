@@ -1,12 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { TextField, Button, Grid, Paper, Typography } from "@mui/material";
-import {
-  BrowserRouter as Router,
-  Route,
-  Link,
-  Switch,
-  useNavigate,
-} from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Posts = () => {
   const [posts, setPosts] = useState([]);
