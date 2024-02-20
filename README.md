@@ -1,70 +1,176 @@
-# Getting Started with Create React App
+<!-- TABLE OF CONTENTS -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📗 Table of Content
 
-## Available Scripts
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-In the project directory, you can run:
+<!-- PROJECT DESCRIPTION -->
 
-### `npm start`
+**Personal React Blog App** 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Requierements
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Blog 
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 🛠 Built With
 
-### `npm run build`
+### Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- HTML5.
+- CSS3.
+- Javascript using ES6.
+- React 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<### Client
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- HTML.
+- CSS.
+- JS.
+- Webpack
+- React
 
-### `npm run eject`
+# 🚀 Live Demo <a name="live-demo"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[Link to live demo]( https://ephemeral-creponne-773627.netlify.app/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Server
 
-## Learn More
+- local.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Database
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- N/A.
 
-### Code Splitting
+# Key Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- HTML5 semantics.
+- CSS3.
+- Javascript OOP, ES6.
+- Webpack.
+- React
 
-### Analyzing the Bundle Size
+# 💻 Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### To get a local copy up and running, follow these steps
 
-### Making a Progressive Web App
+1. Installed Git.
+2. Create a local directory that you want to clone the repository.
+3. Open the command prompt in the created directory.
+4. On the terminal run this command git clone <>
+5. Install the dev dependencies for linters run npm install.
+6. install react - create-react-app
+7. install material Ui
+8. npm start
+9. run: `npm  i --save-dev webpack webpack-cli webpack-dev-server @babel/core @babel/preset-env babel-loader style-loader css-loader sass-loader html-webpack-plugin mini-css-extract-plugin `
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+After Installing all the packages run this command `npm run start` to start dev server and you can just press `Ctrl + C` in the terminal and that will kill it and run `npm run build` to creates a build directory with a production build of your app .
 
-### Advanced Configuration
+# Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### In order to run this project you need
 
-### Deployment
+- Installed Git.
+- A browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# Setup
 
-### `npm run build` fails to minify
+- Clone this repository to your desired folder.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Install
+
+### Install this project with
+
+- Git.
+- Github.
+
+# Usage
+
+### To run the project, execute the following command
+
+- git clone <>
+- cd Portfolio
+
+# Run tests
+
+### To run tests, run the following command
+
+- npx eslint .
+- npx stylelint "\*_/_.{css,scss}"
+- npm start
+
+# Deployment
+
+### You can deploy this project using https://abenezerassefa.github.io/TODOLIST/
+
+- Github pages.
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Abenezer**
+
+- GitHub: [@AbenezerAssefa](https://github.com/AbenezerAssefa)
+- LinkedIn: [Abenezer](https://www.linkedin.com/in/abenezer-assefa-386b25193)
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+In the future, I shall be adding some dynamic loading effects to ensure a more smooth rendering on user's devices with the following features:
+
+- [ ] **Use of JavaScript to render dynamically**
+- [ ] **Implement pop-up modals for each project cards**
+- [ ] **Integrate Backend**
+- [ ] **Add some animations and transition for good user experience**
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](../../issues/).
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project kindly send to me an e-mail expressing it, it would make my day and fuel my motivation.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank Microverse team for this journey.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+# ❓ FAQ
+
+### How do I clone this with all the un-merged branches?
+
+- Kindly check the branches names in github then add them manually on your local machine, after that you may just pull the changes.
+
+### How to access the database?
+
+- It's not available for now I'm still working on it, once it's available I'll update this answer.
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
