@@ -559,6 +559,10 @@ textarea {
     box-shadow: -2rem 4rem 4rem rgba(0, 0, 0, 0.26);
   }
 
+  .heading span {
+    font-size: 25px;
+  }
+
   @keyframes dropdown {
     to {
       opacity: 1;

@@ -24,7 +24,6 @@ const App = () => {
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="posts" element={<Posts />} />
-        {/* Use a nested route for post details */}
         <Route path="posts/:id" element={<PostDetail />}>
           <Route index element={<Posts />} />
         </Route>

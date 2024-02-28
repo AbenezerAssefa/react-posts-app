@@ -1,0 +1,25 @@
+.postDetailContainer {
+  margin: 140px 50px;
+  padding: 20px;
+}
+
+.postDetailContainer .postTitle {
+  margin-bottom: 10px;
+}
+
+.postDetailContainer .postInfo {
+  color: #888;
+}
+
+.postDetailContainer .postBody {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+Button.backButton {
+  margin: 10px 0px;
+}
+
+Button.backButton:hover {
+  background-color: #d44a3a;
+}
